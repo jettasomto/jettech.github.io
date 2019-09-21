@@ -1,0 +1,97 @@
+body{
+margin:0px auto;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #b6bdaf
+}
+h2{
+    padding-left: 100px;
+    font-size: 40px;
+    margin-bottom: -10px;
+    
+}
+aside {
+background-image: url(singnup.jpeg);
+background-size: 510px 650px;
+flex-basis: 40%;
+
+border-top-right-radius:10px; 
+border-bottom-right-radius:10px; 
+}
+aside a{
+    color:white;
+    
+}
+aside p{
+    padding-top: 520px;
+    padding-left: 200px;
+}
+section{
+    
+    flex-basis: 40%;
+    border-top-left-radius:10px; 
+border-bottom-left-radius:10px; 
+background-color: white;
+}
+.wrapper{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 90px; 
+    margin-bottom: 90px;
+     
+    
+}
+input{
+    border:none;
+    padding: 5px 120px 5px 0px;
+    margin-left: 15px;
+    outline: none;
+}
+.inputdiv{
+   
+   padding-left: 5px;
+   padding-top: 40px;
+   padding-bottom:8px;
+   
+}
+.agree{
+    padding-top: 35px;
+    margin-left: 90px;
+    font-size: 14px;
+}
+.bottomborder{
+    border-bottom: 1px #999999 solid;
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-left: 100px;
+}
+
+button{
+    margin-top:40px;
+    border:none;
+    border-radius:5px;
+    background-color: #9cba4b;
+    color:white;
+    margin:40px 50px 50px 100px;
+    height: 50px;
+    width: 150px;
+    font-size: 14px;
+}
+.agreetext{
+    padding-left:5px;
+    padding-bottom: 5px;
+    margin-top: -20px;
+}
+.agree input[type="checkbox"]{
+    height:18px ;
+    width: 18px;
+    color: white;
+    position: relative;
+    top: 5px;
+    
+    
+}
+.agree a{
+    color:black;
+}
